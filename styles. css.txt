@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+header {
+    background: #222;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+header .logo {
+    width: 80px;
+    height: auto;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('goa-view.jpg') no-repeat center center/cover;
+    padding: 100px 20px;
+    color: white;
+    font-size: 24px;
+    text-shadow: 2px 2px 10px black;
+}
+
+.book-btn {
+    background: yellow;
+    color: black;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.locations {
+    padding: 20px;
+    background: white;
+}
+
+.location {
+    margin: 20px;
+}
+
+.location img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.activities {
+    background: white;
+    padding: 20px;
+}
+
+.activity {
+    margin: 20px;
+}
+
+.activity img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.booking {
+    background: white;
+    padding: 30px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background: #222;
+    color: white;
+    padding: 20px;
+}
+
+.whatsapp-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+}
+
+.whatsapp-btn img {
+    width: 100%;
+    transition: 0.3s;
+}
+
+.whatsapp-btn img:hover {
+    transform: scale(1.1);
+}

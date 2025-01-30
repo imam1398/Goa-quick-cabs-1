@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoaQuickCabs | Affordable Taxi Service in Goa</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Book reliable and affordable taxis in Goa. Explore Goa's beaches, churches, and activities like paragliding, bungee jumping, and boating with our professional drivers.">
+    <meta name="keywords" content="Goa taxi, Goa cabs, taxi booking Goa, best taxi in Goa, airport taxi Goa, paragliding Goa, bungee jumping Goa, boating Goa">
+    <meta name="author" content="GoaQuickCabs">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <img src="logo.png" alt="GoaQuickCabs Logo" class="logo">
+        <h1>🚖 GoaQuickCabs</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#locations">Famous Locations</a>
+            <a href="#activities">Activities</a>
+            <a href="#booking">Book Now</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Explore Goa with Ease</h2>
+        <p>Book a taxi and discover the beauty of Goa effortlessly.</p>
+        <a href="#booking" class="book-btn">Book Now</a>
+    </section>
+
+    <section class="locations" id="locations">
+        <h2>Famous Locations in Goa</h2>
+        
+        <!-- Location 1: Baga Beach -->
+        <div class="location">
+            <img src="baga-beach.jpg" alt="Baga Beach">
+            <h3>Baga Beach</h3>
+            <p>One of Goa's most famous beaches, known for water sports, nightlife, and stunning sunsets.</p>
+        </div>
+
+        <!-- Location 2: Fort Aguada -->
+        <div class="location">
+            <img src="fort-aguada.jpg" alt="Fort Aguada">
+            <h3>Fort Aguada</h3>
+            <p>A historic Portuguese fort with breathtaking sea views, perfect for photography.</p>
+        </div>
+
+        <!-- Location 3: Dudhsagar Falls -->
+        <div class="location">
+            <img src="dudhsagar-falls.jpg" alt="Dudhsagar Falls">
+            <h3>Dudhsagar Falls</h3>
+            <p>A majestic four-tiered waterfall located in the lush Western Ghats, a must-visit for nature lovers.</p>
+        </div>
+
+        <!-- Additional Locations -->
+        <div class="location">
+            <img src="basilica-bom-jesus.jpg" alt="Basilica of Bom Jesus">
+            <h3>Basilica of Bom Jesus</h3>
+            <p>A UNESCO World Heritage Site, home to the remains of St. Francis Xavier.</p>
+        </div>
+
+        <div class="location">
+            <img src="anjuna-beach.jpg" alt="Anjuna Beach">
+            <h3>Anjuna Beach</h3>
+            <p>Known for its vibrant nightlife and flea markets, Anjuna is a hotspot for beach lovers and partygoers.</p>
+        </div>
+
+        <div class="location">
+            <img src="palolem-beach.jpg" alt="Palolem Beach">
+            <h3>Palolem Beach</h3>
+            <p>A picturesque and tranquil beach, perfect for a relaxing getaway in Goa.</p>
+        </div>
+
+        <div class="location">
+            <img src="dona-paul-beach.jpg" alt="Dona Paula Beach">
+            <h3>Dona Paula Beach</h3>
+            <p>A beautiful beach with a scenic viewpoint, famous for its stunning sunset views.</p>
+        </div>
+    </section>
+
+    <section class="activities" id="activities">
+        <h2>Popular Activities in Goa</h2>
+
+        <div class="activity">
+            <img src="paragliding-in-goa.jpg" alt="Paragliding in Goa">
+            <h3>Paragliding</h3>
+            <p>Experience the thrill of flying over Goa's beautiful coastline. Paragliding is one of the most popular adventure sports in Goa.</p>
+        </div>
+
+        <div class="activity">
+            <img src="bungee-jumping-in-goa.jpg" alt="Bungee Jumping in Goa">
+            <h3>Bungee Jumping</h3>
+            <p>If you're an adrenaline junkie, bungee jumping in Goa is an exhilarating experience. Take a leap from great heights and enjoy a free-fall rush!</p>
+        </div>
+
+        <div class="activity">
+            <img src="boating-in-goa.jpg" alt="Boating in Goa">
+            <h3>Boating</h3>
+            <p>Enjoy a peaceful boat ride on the serene waters of Goa. Whether it's a traditional Goan boat or a speedboat, boating is a fun activity for all ages.</p>
+        </div>
+
+        <div class="activity">
+            <img src="scuba-diving-in-goa.jpg" alt="Scuba Diving in Goa">
+            <h3>Scuba Diving</h3>
+            <p>Explore the underwater world of Goa with scuba diving. Discover colorful marine life and coral reefs in clear waters.</p>
+        </div>
+
+        <div class="activity">
+            <img src="water-sports-in-goa.jpg" alt="Water Sports in Goa">
+            <h3>Water Sports</h3>
+            <p>Goa offers a variety of water sports such as jet skiing, windsurfing, and kayaking. Perfect for those who want to enjoy some action-packed fun.</p>
+        </div>
+    </section>
+
+    <section class="booking" id="booking">
+        <h2>Book Your Ride</h2>
+        <form id="bookingForm">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" required>
+
+            <label for="pickup">Pickup Location:</label>
+            <input type="text" id="pickup" required>
+
+            <label for="dropoff">Dropoff Location:</label>
+            <input type="text" id="dropoff" required>
+
+            <label for="car">Select Car Type:</label>
+            <select id="car" required>
+                <option value="Sedan">Sedan</option>
+                <option value="Swift Dzire">Swift Dzire</option>
+                <option value="Hatchback (WagonR)">Hatchback (WagonR)</option>
+                <option value="SUV/MUV">SUV/MUV</option>
+                <option value="Ertiga">Ertiga</option>
+                <option value="Innova">Innova</option>
+            </select>
+
+            <button type="submit" class="submit-btn">Confirm Booking</button>
+        </form>
+        <p id="confirmation"></p>
+    </section>
+
+    <footer id="contact">
+        <h2>Contact Us</h2>
+        <p>📞 Phone: +91 78228 47758</p>
+        <p>📧 Email: goaquickcabs@example.com</p>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/7822847758" class="whatsapp-btn" target="_blank">
+        <img src="whatsapp.png" alt="WhatsApp">
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
